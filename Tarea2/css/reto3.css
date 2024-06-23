@@ -1,0 +1,43 @@
+
+
+.hrLines {
+    display: flex;
+    flex-direction: row;
+    color: rgb(148, 22, 22);
+    height: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0px 0px 0px;
+}
+
+p {
+    padding-top: 5px;
+}
+
+.hr-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hr-line {
+    width: 100px;
+    border: none;
+    border-top: 2px solid rgb(148, 22, 22);
+    margin: 0 8px;
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+
+  button {
+    background-color: rgb(148, 22, 22);
+    padding: 10px 20px; 
+    border-radius: 5%;
+    color: whitesmoke;
+    font-weight: 400;
+  }
+

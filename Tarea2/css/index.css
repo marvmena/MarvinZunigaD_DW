@@ -1,0 +1,42 @@
+.banner1 {
+    background-image: url("../imagenes/banner1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner1 h1 {
+    font-size: 7rem;
+}
+
+.banner1 h2 {
+    font-size: 3rem;
+}
+
+.container-fluid1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.indextitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #131313;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: whitesmoke;
+}
+
+.indextitle h3 {
+    font-weight: 300;
+}
+
+.btnJoinNow {
+    background-color: #131313;
+    border: none;
+    font-weight: 600;
+    color: whitesmoke;
+    border-radius: 8%;
+    padding: 6px 25px;
+}
+
