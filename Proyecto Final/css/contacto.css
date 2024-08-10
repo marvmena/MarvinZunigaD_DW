@@ -1,0 +1,15 @@
+.iconografiaSection {
+    color: whitesmoke;
+    h3 {
+        font-size: 2rem;
+        font-family: "Alfa Slab One", serif;
+    }
+    li {
+        font-size: 1.15rem;
+        font-family: "Inconsolata", monospace;
+    }
+    
+    i {
+        padding: 15px;
+    }
+}

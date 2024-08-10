@@ -200,4 +200,23 @@
         }
 }    
 
+.profesoresContainer {
+    color: whitesmoke;
+
+    h2 {
+        font-family: "Alfa Slab One", serif;   
+        text-align: center;  
+    }
+
+    p {
+        font-size: 1.15rem;
+        font-family: "Inconsolata", monospace;
+    }
+
+    img {
+        height: 31rem;
+        width: 100%;
+    }
+}
+
 }
