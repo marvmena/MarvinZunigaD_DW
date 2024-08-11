@@ -1,0 +1,41 @@
+
+.priceTable {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+
+.container {
+    width: 100%;
+    padding: 0 15px; /* Ajuste opcional para el espaciado horizontal */
+    box-sizing: border-box; /* Asegura que el padding y border estén incluidos en el ancho */
+}
+
+.priceTable th, .priceTable td {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.priceTable th {
+    background-color: whitesmoke;
+    color: black;
+    font-family: "Alfa Slab One", serif;
+}
+.priceTable td {
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+    font-family: "Inconsolata", monospace;
+}
+.priceTable .hoverDetails {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+    padding: auto;
+    border-radius: auto;
+    width: auto;
+    z-index: 10;
+}
+.priceTable td:hover .hoverDetails {
+    display: block;
+}

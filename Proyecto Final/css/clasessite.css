@@ -1,0 +1,59 @@
+
+
+/* Sobre el genero */
+
+.container {
+
+    color:whitesmoke;
+
+    img {
+        width: auto;
+        height: 80%;
+    }
+
+    h3 {
+        font-size: 2rem;
+        font-family: "Alfa Slab One", serif;
+    }
+
+    p {
+        font-size: 1.15rem;
+        font-family: "Inconsolata", monospace;
+    }
+}
+
+/* CSS tabla */
+
+.priceTable {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.priceTable th, .priceTable td {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.priceTable th {
+    background-color: whitesmoke;
+    color: black;
+    font-family: "Alfa Slab One", serif;
+}
+.priceTable td {
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+    font-family: "Inconsolata", monospace;
+}
+.priceTable .hoverDetails {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+    padding: auto;
+    border-radius: auto;
+    width: auto;
+    z-index: 10;
+}
+.priceTable td:hover .hoverDetails {
+    display: block;
+}

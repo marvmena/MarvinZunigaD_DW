@@ -220,3 +220,12 @@
 }
 
 }
+
+
+/* Tabla de precios */
+
+@media (max-width: 768px) {
+    .priceTable th, .priceTable td {
+        padding: 10px; /* Ajusta el padding para pantallas pequeñas si es necesario */
+    }
+}
