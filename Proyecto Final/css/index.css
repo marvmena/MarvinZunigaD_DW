@@ -10,7 +10,7 @@ body {
 
 
 .banner1section {
-    background-image: url(/imagenes/banner.jpg);
+    background-image: url(/imagenes/banner.webp);
     height: 2rem;
     width: auto;
     background-attachment: fixed;
@@ -166,6 +166,44 @@ body {
     gap: 5px;
 }
 
+
+/* Conoce a nuestros profesores */
+
+.profesoresContainer {
+    font-family: "Inconsolata", monospace;
+
+    img {
+        height: 300px;
+        border-radius: 20%;
+    }
+}
+
+/* Acordeon */
+
+.accordion-button {
+    background-color: #f8f9fa; 
+    color: #212529; 
+}
+
+.accordion-button:hover {
+    background-color: black; 
+    color: whitesmoke; 
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #196681; 
+    color: #fff; 
+}
+
+.accordion-item {
+    border: 1px solid #196681; 
+}
+
+.accordion-body {
+    background-color: whitesmoke; 
+    color: #212529; 
+}
+
 /* Mapa */
 
 .mapTitleContainer h3{
@@ -177,7 +215,6 @@ body {
 /* Formulario */
 
 .formImage {
-
     text-align: center;
 
     img {
@@ -187,24 +224,18 @@ body {
 }
 
 .formContainer {
-    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    background-image: url(/imagenes/formbackground.webp);
     border: 1px solid whitesmoke;
-    padding: 20px 20px;
     height: auto;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    background-color: whitesmoke;
 
     p {
         color: whitesmoke;
     }
 
-}
-
-.formContainerNoImage {
-    display: flex;
-    align-items: center;
 }
 
 .formTitle {
@@ -216,11 +247,8 @@ body {
 form {
     input {
         padding: 20px;
-        width: 100%;       
+        width: 50%;       
 }
-    .nameInput {
-        width:100%;
-    }
 
 }
 

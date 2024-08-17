@@ -219,6 +219,17 @@
     }
 }
 
+/* Conoce a nuestros profesores */
+
+.profesoresContainer {
+    font-family: "Inconsolata", monospace;
+
+    img {
+        height: 200px;
+        border-radius: 40%;
+    }
+}
+
 }
 
 

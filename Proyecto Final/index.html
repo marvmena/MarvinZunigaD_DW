@@ -82,7 +82,7 @@
             </div>
             <div class="row pt-5">
                 <div class="col-lg-6 aboutUsimage img-fluid">
-                    <img src="imagenes/aboutus.jpg" alt="Hombre acostado en pared posando">
+                    <img src="imagenes/aboutus.webp" alt="Hombre acostado en pared posando">
                 </div>
                 <div class="col-lg-6 aboutUstext pt-3">
                     <p>En BailArte, creemos que la danza es una forma poderosa de expresión que trasciende barreras y une a las personas. Fundada en el corazón de la ciudad, nuestra compañía se dedica a ofrecer una experiencia única y vibrante en el mundo del baile, especializada en hip hop, pop, K-POP y ritmos latinos.</p>
@@ -107,7 +107,7 @@
                 <p>Nuestra misión es inspirar y capacitar a bailarines de todas las edades y niveles, brindándoles las herramientas necesarias para alcanzar su máximo potencial artístico. A través de clases dinámicas, talleres innovadores y presentaciones emocionantes, buscamos cultivar una comunidad de bailarines apasionados y talentosos.</p>
                 </div>
                 <div class="col-lg-6 ourMissionImage">
-                    <img src="imagenes/nuestramision.jpg" alt="Estudio de baile">
+                    <img src="imagenes/nuestramision.webp" alt="Estudio de baile">
                 </div>
             </div>
         </div>
@@ -126,7 +126,7 @@
             </div>
             <div class="row pt-5">
                 <div class="col-lg-6 joinUSimage">
-                    <img src="imagenes/joinus.jpg" alt="Estudio de baile">
+                    <img src="imagenes/joinus.webp" alt="Estudio de baile">
                 </div>
                 <div class="col-lg-6">
                 <p>Te invitamos a formar parte de la familia BailArte. Ven y descubre la alegría de moverte al ritmo de la música, desarrolla tus habilidades y haz amistades para toda la vida. Juntos, crearemos momentos inolvidables y celebraremos la belleza del baile.</p>
@@ -141,9 +141,10 @@
         <div class="row custom-gap">
             <div class="col iconContainer1">
                 <div class="text-center">
-                    <i class="uil uil-head-side"></i>
+                    <i class="uil uil-head-side" data-bs-toggle="modal" data-bs-target="#myModal1" tabindex="25"></i>
                 </div>
                 <h4 class="pt-4 text-center">Nuestros Profesores</h4>
+                
                 <p class="pt-2">Contamos con profesionales altamente experimentados, con más de 5 años de experiencia en el campo. Nuestros expertos son apasionados y dedicados a ofrecer lo mejor en su disciplina.</p>
             </div>
             <div class="col iconContainer1">
@@ -164,6 +165,79 @@
     </div>
 </section>
 
+<!-- Conoce a los profesores -->
+
+<section class="pt-5">
+    <div class="container profesoresContainer">
+        <div class="row">
+            <div class="col-12">
+                <div class="accordion" id="profesoresAccordion">
+                    
+                    <!-- Profesor de Hip Hop -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingHipHop">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHipHop" aria-expanded="true" aria-controls="collapseHipHop">
+                                Clases de Hip Hop
+                            </button>
+                        </h2>
+                        <div id="collapseHipHop" class="accordion-collapse collapse show" aria-labelledby="headingHipHop" data-bs-parent="#profesoresAccordion">
+                            <div class="accordion-body text-center">
+                                <img src="imagenes/hiphopprofesora.webp" alt="Profesora de hip-hop" class="img-fluid pt-4">
+                                <p class="text-center pt-4">Alicia "Lyric" González</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Profesor de Ritmos Latinos -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingRitmosLatinos">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRitmosLatinos" aria-expanded="false" aria-controls="collapseRitmosLatinos">
+                                Clases de Ritmos Latinos
+                            </button>
+                        </h2>
+                        <div id="collapseRitmosLatinos" class="accordion-collapse collapse" aria-labelledby="headingRitmosLatinos" data-bs-parent="#profesoresAccordion">
+                            <div class="accordion-body text-center">
+                                <img src="imagenes/ritmoslatinosprofe.webp" alt="Profesora de ritmos latinos" class="img-fluid pt-4">
+                                <p class="text-center pt-4">María López</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Profesor de K-POP -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingKpop">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseKpop" aria-expanded="false" aria-controls="collapseKpop">
+                                Clases de K-POP
+                            </button>
+                        </h2>
+                        <div id="collapseKpop" class="accordion-collapse collapse" aria-labelledby="headingKpop" data-bs-parent="#profesoresAccordion">
+                            <div class="accordion-body text-center">
+                                <img src="imagenes/kpopprofesor.webp" alt="Profesor de K-POP" class="img-fluid pt-4">
+                                <p class="text-center pt-4">Jin Lee</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Profesor de Música POP -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingPop">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePop" aria-expanded="false" aria-controls="collapsePop">
+                                Clases de Música POP
+                            </button>
+                        </h2>
+                        <div id="collapsePop" class="accordion-collapse collapse" aria-labelledby="headingPop" data-bs-parent="#profesoresAccordion">
+                            <div class="accordion-body text-center">
+                                <img src="imagenes/popprofesor.webp" alt="Profesor de Música POP" class="img-fluid pt-4">
+                                <p class="text-center pt-4">Lena Martinez</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Mapa -->
 <section class="pt-5">
@@ -189,13 +263,9 @@
     <div class="container formContainer">
         <div class="row">
             <div class="formTitle">
-                <h3 class="text-center">¡No esperes más! Llena el formulario y sé parte de nosotros.</h3>
+                <h3 class="text-center pt-5">¡No esperes más! Llena el formulario y sé parte de nosotros.</h3>
             </div>
-            <div class="row pt-5 formContainerNoImage">
-                <div class="col-lg-6 formImage">
-                    <img src="/imagenes/formImage.jpg">
-                </div>
-                <div class="col-lg-6 pt-3">
+                <div class="col-lg-12 pt-5 text-center">
                     <form action="/suscribir" method="post">
                         <input type="name" name="nema" placeholder="Ingresa tu nombre completo" class="nameInput">
                         <input type="email" name="email" placeholder="Ingresa tu correo electrónico" class="emailInput">
@@ -203,6 +273,10 @@
                     </form>
                     <br>
                     <p class="pt-3"><input type="checkbox"> Al suscribirme, acepto recibir actualizaciones por correo electrónico de acuerdo con la política de privacidad de Go City.</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated progress-bar-custom" role="progressbar" style="width: 50%; font-size: 18px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+
                 </div>
             </div>
 
@@ -265,10 +339,18 @@
 
 
     <script src="js/wow.min.js"></script>
+
+
+
+    <!-- animacion progress bar-->
+    <script src="js/loadingbar.js"></script>
+
     <!-- activa los efectos de animacion -->
     <script>
         new WOW().init();
     </script>
+
+    <script src="/js/acordion.js"></script>
 
 
   </body>
